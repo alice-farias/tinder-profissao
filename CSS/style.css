@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    color: #ff5864;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.option {
+    background-color: #ff5864;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 18px;
+}
+
+.option:hover {
+    background-color: #ff404f;
+}
+
+#result-card {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #ff5864;
+}
+
+.result-area {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+#restart {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #ff5864;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    width: 100%;
+    max-width: 300px;
+}
+
+#restart:hover {
+    background-color: #ff404f;
+}
+
+/* Estilos adicionais para responsividade */
+@media (max-width: 400px) {
+    .app-container {
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .option {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .result-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .result-area {
+        font-size: 20px;
+    }
+
+    #restart {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+.logo-img {
+    max-width: 120px;
+    margin: 0 auto 20px auto;
+}
+
+.start-button {
+    background-color: #ff5864;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.2s ease;
+    width: 100%;
+    max-width: 300px;
+}
+
+.start-button:hover {
+    background-color: #ff404f;
+}
+
+.start-button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Computação</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div id="question-card" class="card">
+            <h2 class="question">O que mais te anima na escola/trabalho?</h2>
+            <div class="options">
+                <div class="option" data-answer="Resolver enigmas e mistérios" data-area="Investigador" data-image="../IMG/ads.jpg">Resolver enigmas e mistérios</div>
+                <div class="option" data-answer="Criar algo que todo mundo ache legal" data-area="Designer" data-image="designer.jpg">Criar algo que todo mundo ache legal</div>
+                <div class="option" data-answer="Fazer tudo funcionar mais rápido e melhor" data-area="Engenheiro" data-image="engenheiro.jpg">Fazer tudo funcionar mais rápido e melhor</div>
+                <div class="option" data-answer="Descobrir as últimas novidades tecnológicas" data-area="Tecnólogo" data-image="tecnologo.jpg">Descobrir as últimas novidades tecnológicas</div>
+                <div class="option" data-answer="Entender como as coisas funcionam nos mínimos detalhes" data-area="Cientista" data-image="cientista.jpg">Entender como as coisas funcionam nos mínimos detalhes</div>
+            </div>
+        </div>
+        <div id="result-card" class="card hidden">
+            <h3>Deu Match!</h3>
+            <img id="result-image" src="" alt="Imagem da Profissão" class="result-image">
+            <p id="result-area" class="result-area"></p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora impedit sequi, veritatis quae nesciunt obcaecati dicta iure corrupti dolorum illo.</p>
+            <button id="restart">Refazer o Quiz</button>
+        </div>
+    </div>
+    <script src="../JS/script.js"></script>
+</body>
+</html>
