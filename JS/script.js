@@ -154,23 +154,23 @@ document.addEventListener("DOMContentLoaded", () => {
         switch (mostFrequentAnswer) {
             case "a":
                 result.area = "Análise e Desenvolvimento de Sistemas";
-                result.image = "../IMG/ads.jpg";
+                result.image = "../IMG/ads.jpeg";
                 break;
             case "b":
                 result.area = "Redes";
-                result.image = ".jpg";
+                result.image = "../IMG/redes.jpeg";
                 break;
             case "c":
                 result.area = "Gestão de TI";
-                result.image = "engenharia.jpg";
+                result.image = "../IMG/gestao.jpeg";
                 break;
             case "d":
                 result.area = "Ciências da Computação";
-                result.image = "tecnologia.jpg";
+                result.image = "../IMG/cs.jpeg";
                 break;
             case "e":
                 result.area = "Talvez tecnologia não seja a área certa pra você!";
-                result.image = "ciencia.jpg";
+                result.image = "../IMG/ops.jpeg";
                 break;
         }
 
